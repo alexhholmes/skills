@@ -1,0 +1,22 @@
+{
+  "name": "alexhholmes-skills",
+  "owner": {
+    "name": "Alex Holmes",
+    "email": "alex@sed.dev"
+  },
+  "metadata": {
+    "description": "Alex's Claude skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "development-skills",
+      "description": "Collection of development and coding skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./version",
+      ]
+    }
+  ]
+}
