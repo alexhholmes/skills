@@ -22,6 +22,10 @@ bash scripts/go-version.sh "$PACKAGE"
 **Parameters:**
 - `PACKAGE` (required): Go module path (e.g., github.com/gin-gonic/gin)
 
+#### Alternative
+
+Get the latest version of all the go mod files using `go list -m -u all`
+
 ---
 
 ### get_python_version
